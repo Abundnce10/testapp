@@ -5,7 +5,7 @@ set :application, 'testapp'
 set :repo_url, 'git@github.com:Abundnce10/testapp.git'
 
 
-set :deploy_to, '/home/deploy/myapp'
+set :deploy_to, '/home/deploy/testapp'
 
 set :linked_files, %w{config/database.yml}
 set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
