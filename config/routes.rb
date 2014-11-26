@@ -1,4 +1,6 @@
 Testapp::Application.routes.draw do
+  resources :cars
+
   resources :users
 
   root 'users#index'
