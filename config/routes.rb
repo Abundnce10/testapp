@@ -1,4 +1,6 @@
 Testapp::Application.routes.draw do
+  resources :cities
+
   resources :manufacturers
 
   resources :cars
