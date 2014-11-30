@@ -1,4 +1,6 @@
 Testapp::Application.routes.draw do
+  resources :manufacturers
+
   resources :cars
 
   resources :users
