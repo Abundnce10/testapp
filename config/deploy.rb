@@ -12,7 +12,7 @@ set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public
 
 namespace :deploy do
 
-  before :publishing, 'deploy:migrate'
+  #before :publishing, 'deploy:migrate'
 
   desc 'Restart application'
   task :restart do
